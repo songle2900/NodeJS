@@ -84,7 +84,7 @@ router.route('/process/login').post(function(req, res) {
 
 // After log out, session will be deleted.
 router.route('/process/logout').get(function(req, res) {
-    console.log('/process/logout 호출됨.');
+    console.log('/process/logout Called.');
 
     if (req.session.user) {
         // If already logged in,
